@@ -1,0 +1,12 @@
+{
+  "name": "training-job",
+  "tasks": [
+    {
+      "task_key": "train",
+      "notebook_task": {
+        "notebook_path": "/Repos/username/databricks-spark-ml-project/notebooks/03_model_training"
+      },
+      "existing_cluster_id": "<CLUSTER_ID>"
+    }
+  ]
+}
